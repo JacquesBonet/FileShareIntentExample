@@ -30,7 +30,7 @@ target 'FileShareIntentExample' do
   pod 'RCTRequired', :path => "../node_modules/react-native/Libraries/RCTRequired"
   pod 'RCTTypeSafety', :path => "../node_modules/react-native/Libraries/TypeSafety"
 
-  #pod 'RNFileShareIntent', :path => '../node_modules/react-native-file-share-intent'
+  pod 'RNFileShareIntent', :path => '../node_modules/react-native-file-share-intent'
 
   target 'FileShareIntentExampleTests' do
     inherit! :search_paths
